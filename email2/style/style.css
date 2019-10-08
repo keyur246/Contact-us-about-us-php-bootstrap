@@ -1,0 +1,67 @@
+
+  body{
+
+         background-image: url("contactphoto.jpg");
+         background-size: cover;
+
+      }
+
+*{box-sizing: border-box;}
+.col-md-6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.col-md-12{width:100%;float:left;padding:0 15px}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+
+.contact-wapper {
+    width: 40%;
+    margin: auto;
+}
+
+h2.title {
+    padding: 0 15px;
+}
+textarea#message {
+    height: auto;
+}
+
+input.btn.btn-primary.btn-lg.mb-xlg {
+    color: #fff;
+    background-color: #204d74;
+    border-color: #122b40;
+    height: 30px;
+    border: none;
+    width: 100%;
+    align-content: center;
+}

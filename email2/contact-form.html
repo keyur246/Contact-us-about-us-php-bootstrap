@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <style>
+      body{
+
+         background-image: url("images/contactphoto.jpg");
+         background-size: cover;
+
+      }
+      input.btn.btn-primary.btn-lg.mb-xlg {
+    color: #fff;
+    background-color: rgb(0,128,128);
+    border-color: #122b40;
+    height: 60px;
+    border: none;
+    width: 100%;
+    align-content: center;
+}
+   </style>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="TRAN DINH HONG" />
+	<title>Contact us</title>
+    <link type="text/css" rel="stylesheet" href="style/style.css" />
+    </head>
+
+<body>
+
+<div class="contact-wapper">
+   <h2 class="title"><strong>Contact</strong> Us</h2>
+   <form id="contactForm" action="php/contact-form.php" method="POST" >
+      <div class="row">
+         <div class="form-group">
+            <div class="col-md-6">
+               <input type="text" value=""  maxlength="100" placeholder="Name"  class="form-control" name="name" id="name" required="" aria-required="true">
+            </div>
+            <div class="col-md-6">
+               <input type="email" value=""   maxlength="100" class="form-control" placeholder="Email" name="email" id="email" required="" aria-required="true">
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="form-group">
+            <div class="col-md-12">
+               <input type="text" value=""  maxlength="100" class="form-control" placeholder="Subject" name="subject" id="subject" required="" aria-required="true">
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="form-group">
+            <div class="col-md-12">
+               <textarea maxlength="5000" rows="10" class="form-control" name="message" id="message" placeholder="Message" required="" aria-required="true"></textarea>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12">
+            <input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg"/>
+         </div>
+      </div>
+   </form>
+</div>
+
+</body>
+</html>

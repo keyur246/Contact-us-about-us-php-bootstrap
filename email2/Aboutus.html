@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="socialc.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 style="color: red"><b>About Us</b></h2>
+      <hr style="color: black">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-sm-6">
+      <p><h5>At Jaydat.com, we understand that people everywhere are searching for a home to call their own. A home is a cherished memory that lasts forever, where the walls embrace memories, the ceilings shelter love and laughter, where the quiet corners offer a much-needed pause and life itself becomes a reason to celebrate.<br><br>
+
+We want to make the journey as joyful as the moment when you finally find the perfect home. So we begin by partnering with our customers from the start and being there when it matters the most - right from online search to brokers to home loans to paperwork to finally finding that perfect home. At Jaydat.com, we help you find joy.</h5></p>
+    </div>
+     <div class="col-sm-6">
+      <img src="images/about.png">
+    </div>
+  </div>
+
+    <div class="row">
+    <div class="col-sm-12">
+      <h2 style="color: red"><b>Find us here</b></h2>
+      <hr>
+    </div>
+  </div>
+
+  <div class="row" style="text-align: center;">
+    <div class="col-sm-6">
+       <div class="form-group" id="map">
+               <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+    var uluru = { lat: 19.1883414, lng: 72.9690293};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6yNZzfCUxlwDeurF-2i5nPXNg6FJdfZQ&callback=initMap">
+    </script>
+
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+       <img src="images/j1.jpg" id="img1"><br>
+       <h3>Jaydaat.com</h3>
+       <h5>Email: Jaydaat@gmail.com</h5>
+       <h5>Phn no: 1111111111</h5>
+
+       <a class="facebookBtn smGlobalBtn" href="#" ></a>
+      <a class="twitterBtn smGlobalBtn" href="#" ></a>
+      <a class="googleplusBtn smGlobalBtn" href="#" ></a>
+      <a class="linkedinBtn smGlobalBtn" href="#" ></a>
+    </div>
+  </div>
+
+ 
+
+
+</div>
+
+</body>
+</html>
